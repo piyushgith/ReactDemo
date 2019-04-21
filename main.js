@@ -1,3 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom'; 
-ReactDOM.render(<h1> Hello World </h1>, document.getElementById('app'));
+import ReactDOM from 'react-dom';
+import AppComp from './App.jsx'
+ReactDOM.render( < AppComp / > , document.getElementById('app'));
